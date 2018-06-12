@@ -14,6 +14,6 @@
   // Рисуем линию.
   imageLine($im, 0, 0, 100, 100, IMG_COLOR_STYLED);
   // Выводим изображение в браузер.
-  header("Content-type: image/png");
+  header('Content-type: image/png');
   imagePng($im);
 ?> 
