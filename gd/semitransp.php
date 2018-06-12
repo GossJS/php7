@@ -10,9 +10,8 @@
   // Рисуем 3 пересекающихся круга.
   $radius  = 150;
   imageFilledEllipse($im, 100, 75,  $radius, $radius, $yellow);
-  imageFilledEllipse($im, 120, 165, $radius, $radius, $red);  
+  imageFilledEllipse($im, 120, 165, $radius, $radius, $red);
   imageFilledEllipse($im, 187, 125, $radius, $radius, $blue);
   // Выводим изображение в браузер.
   header('Content-type: image/png');
   imagePng($im);
-?>
